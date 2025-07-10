@@ -241,7 +241,7 @@ systemctl status mysql
 ### Support
 
 For issues and questions:
-- 📧 Email: [your-email@example.com]
+- 📧 Email: [razaqshaik03@gmail.com]
 - 🐛 Issues: [GitHub Issues](https://github.com/your-repo/issues)
 - 💬 Discussions: [GitHub Discussions](https://github.com/your-repo/discussions)
 
