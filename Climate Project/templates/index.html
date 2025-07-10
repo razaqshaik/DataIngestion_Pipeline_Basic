@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Climate Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container mt-5">
+    <h1 class="mb-4">Latest Climate Data</h1>
+    <table class="table table-striped table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th>ID</th>
+          <th>State</th>
+          <th>Latitude</th>
+          <th>Longitude</th>
+          <th>Datetime</th>
+          <th>Temperature (°C)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+        <tr>
+          <td>{{ row.id }}</td>
+          <td>{{ row.state }}</td>
+          <td>{{ row.latitude }}</td>
+          <td>{{ row.longitude }}</td>
+          <td>{{ row.datetime }}</td>
+          <td>{{ row.temperature }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
