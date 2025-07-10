@@ -242,7 +242,7 @@ systemctl status mysql
 
 For issues and questions:
 - 📧 Email: [razaqshaik03@gmail.com]
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/razaqshaik/DataIngestion_Pipeline_Basic/issues)
 - 💬 Discussions: [GitHub Discussions](https://github.com/your-repo/discussions)
 
 ---
