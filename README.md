@@ -49,7 +49,7 @@ This project showcases a complete data streaming solution for processing and vis
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone <(https://github.com/razaqshaik/DataIngestion_Pipeline_Basic.git)>
    cd climate-data-streaming-dashboard
    ```
 
